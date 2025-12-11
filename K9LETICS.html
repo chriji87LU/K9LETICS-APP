@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Hundegeschirr Verkäufer-Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Manifest für App-Icon & App-Modus -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#2b3a67">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f5fb;
+      color: #222;
+    }
+    header {
+      background: #2b3a67;
+      color: #fff;
+      padding: 1rem 1.2rem;
+      text-align: center;
+    }
+    main {
+      padding: 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+    h1, h2, h3 {
+      margin: 0 0 .6rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: .4rem;
+      margin-bottom: .6rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: .5rem;
+      font-size: .9rem;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: .4rem .5rem;
+      text-align: left;
+    }
+    th {
+      background: #f0f2ff;
+      font-weight: 600;
+    }
+    .badge {
+      display: inline-block;
+      padding: .15rem .5rem;
+      border-radius: 999px;
+      font-size: .7rem;
+      background: #e5ecff;
+      color: #2b3a67;
+      margin-left: .3rem;
+    }
+    .hint {
+      font-size: .85rem;
+      color: #555;
+      line-height: 1.4;
+    }
+    ul {
+      padding-left: 1.2rem;
+      margin: .2rem 0 .5rem;
+      font-size: .9rem;
+    }
+    footer {
+      text-align: center;
+      font-size: .75rem;
+      color: #888;
+      padding: .8rem 0 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hundegeschirr – Verkäufer-Infos</h1>
+    <div style="font-size:.9rem; opacity:.9;">Größentabellen • Anlegehilfe • Hinweise</div>
+  </header>
+
+  <main>
+    <!-- Bereich 1: Kurzanleitung Messen -->
+    <section class="card">
+      <h2>1. Messen des Hundes</h2>
+      <p class="hint">
+        Immer an drei Stellen messen (enger, aber nicht einschneiden lassen):
+      </p>
+      <ul>
+        <li><strong>Brustumfang</strong> – hinter den Vorderbeinen an der breitesten Stelle</li>
+        <li><strong>Halsumfang</strong> – dort, wo das Geschirr später sitzt (nicht ganz oben am Kopf)</li>
+        <li><strong>Rückenlänge</strong> – vom Halsansatz bis zum Ende des Brustkorbs (falls relevant)</li>
+      </ul>
+      <p class="hint">
+        Tipp für Verkäufer: Kunde immer bitten, die Maße <strong>am gleichen Hund</strong> zu notieren (Name des Hundes),
+        dann gibt es bei Nachbestellungen weniger Verwechslungen.
+      </p>
+    </section>
+
+    <!-- Bereich 2: Größentabelle Modell A -->
+    <section class="card">
+      <h2>2. Größentabelle – Modell A <span class="badge">Beispiel</span></h2>
+      <p class="hint">
+        Hier kannst du deine eigenen Größen eintragen.  
+        (In echt einfach die Tabellenwerte ersetzen.)
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Größe</th>
+            <th>Brustumfang (cm)</th>
+            <th>Halsumfang (cm)</th>
+            <th>Empfohlene Hunderassen (Beispiele)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>XS</td>
+            <td>35–45</td>
+            <td>25–30</td>
+            <td>Zwergpudel, Malteser, Chihuahua</td>
+          </tr>
+          <tr>
+            <td>S</td>
+            <td>45–55</td>
+            <td>30–35</td>
+            <td>Sheltie, Jack Russell, Mops</td>
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>55–70</td>
+            <td>35–45</td>
+            <td>Border Collie, Aussie, Beagle</td>
+          </tr>
+          <tr>
+            <td>L</td>
+            <td>70–85</td>
+            <td>45–55</td>
+            <td>Labrador, Golden Retriever</td>
+          </tr>
+          <tr>
+            <td>XL</td>
+            <td>85–100</td>
+            <td>50–65</td>
+            <td>Berner Sennenhund, Schäferhund</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Bereich 3: Größentabelle Modell B -->
+    <section class="card">
+      <h2>3. Größentabelle – Modell B (Brustgeschirr)</h2>
+      <p class="hint">
+        Weitere Modelle einfach als neuen Abschnitt hinzufügen.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Größe</th>
+            <th>Brustumfang (cm)</th>
+            <th>Besonderheiten</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>S</td>
+            <td>40–50</td>
+            <td>Schmale Brust – eher für sportliche, schlanke Hunde</td>
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>50–65</td>
+            <td>Standardbrust, für die meisten mittelgroßen Hunde</td>
+          </tr>
+          <tr>
+            <td>L</td>
+            <td>65–80</td>
+            <td>Breite Brust, z.B. Staff, kräftige Mischlinge</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Bereich 4: Anlege-Checkliste -->
+    <section class="card">
+      <h2>4. Checkliste – passt das Geschirr?</h2>
+      <ul>
+        <li>Zwischen Gurt und Hund sollten <strong>2 Finger</strong> locker Platz haben.</li>
+        <li>Bruststeg darf <strong>nicht in die Achseln</strong> rutschen.</li>
+        <li>Kein Gurt darf in den Hals drücken, wenn der Hund zieht.</li>
+        <li>Hund soll sich frei bewegen können (Schulterblätter).</li>
+      </ul>
+      <p class="hint">
+        Verkäufer-Merksatz: <em>„Nirgends einschneiden, nirgends schlackern.“</em>
+      </p>
+    </section>
+
+    <!-- Bereich 5: Pflegehinweise -->
+    <section class="card">
+      <h2>5. Pflege & Hinweise</h2>
+      <ul>
+        <li>Waschbar bei xx °C (je nach Produkt anpassen)</li>
+        <li>Klettverschlüsse vor dem Waschen schließen</li>
+        <li>Kein Weichspüler bei reflektierenden Materialien</li>
+        <li>Nass nicht auf die Heizung legen – Form kann sich verändern</li>
+      </ul>
+    </section>
+
+    <!-- Bereich 6: Intern für Verkäufer -->
+    <section class="card">
+      <h2>6. Interne Hinweise für Verkäufer</h2>
+      <ul>
+        <li>Bei unsicheren Fällen lieber eine Nummer größer + zusätzliche Beratung anbieten.</li>
+        <li>Wenn Kunde Fotos vom Hund zeigt: auf Brusttiefe, Brustbreite & Statur achten.</li>
+        <li>Notizen zum Hund (Name, Rasse, Gewicht, Größe) im System/Block festhalten.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Version 1.0 – intern nur für Verkäufer
+  </footer>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js')
+          .catch(function (err) {
+            console.log('Service Worker Registrierung fehlgeschlagen:', err);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
